@@ -15,8 +15,6 @@ describe('Pruebas en 02-template-sting.js', () => {
     test('Si getSaludo no recibe parámetro, debe retornar Hola Ella', () => {
         const saludo = getSaludo();
 
-        console.log(saludo);
-
         expect(saludo).toBe('Hola Ella');
     });
 
